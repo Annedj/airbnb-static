@@ -1,0 +1,10 @@
+<h1><%= @flat["name"] %></h1>
+
+<%= @flat["priceCurrency"] %><%= @flat["price"] %>
+
+<%= link_to "Back to the homepage", root_path %>
+
+<!-- Shortcut for an image tag: it -->
+<div>
+  <%= image_tag @flat["imageUrl"], alt: @flat["name"] %>
+</div>
